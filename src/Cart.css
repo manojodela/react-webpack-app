@@ -1,0 +1,320 @@
+Global Styles
+/* Header Nav */
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+}
+
+.fixed ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fixed li {
+    margin-right: 20px;
+}
+
+.fixed a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fixed a:hover {
+    color: #ccc;
+}
+
+/* Container */
+
+.container-m {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* shping cart */
+
+
+.d-flex {
+    display: flex;
+    /* flex-direction: row; */
+    padding: 10px;
+}
+
+.table-header {
+    background-color: #faf5f0;
+    padding: 10px 0px;
+}
+
+.nav-item {
+    cursor: pointer;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.nav-item.active {
+    color: #d38f4b;
+}
+
+
+.nav-item:hover {
+    color: #d38f4b;
+}
+
+
+/* App.css */
+.container {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    padding: 10px 15px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+}
+
+.text-style {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+
+
+.header-nav {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.header-nav .nav-item {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.header-nav .nav-item.active {
+    color: #d38f4b;
+}
+
+.header-nav .circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #000;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.table-header {
+    color: #000;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.shopping-cart {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.cart-items {
+    margin-top: 20px;
+}
+
+.cart-items .d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-items img {
+    margin-right: 10px;
+}
+
+.cart-items .remove-item {
+    cursor: pointer;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-controls .button {
+    color: #000;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.quantity-controls .button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.375rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.accordion-button {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.accordion-button.collapsed {
+    background-color: #f8f9fa;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-body {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+    background-color: #fff;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.order-complete {
+    text-align: center;
+    padding: 50px;
+}
+
+.order-complete .heading-1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+    margin-top: 0;
+}
+
+.order-confirmation {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.order-confirmation h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-summary {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.order-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.order-info div {
+    flex: 1;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.order-details {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.order-details th,
+.order-details td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.order-details th {
+    background-color: #f5f5f5;
+}
+
+.billing-address {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
